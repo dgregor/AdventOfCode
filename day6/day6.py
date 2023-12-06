@@ -16,7 +16,7 @@ for race in range(len(times)):
     winning = [ x for x in range(times[race]) if (x * (times[race] - x)) > distances[race] ]
     winners.append(len(winning))
 
-print("Advent of Code, Day 5, Part 1")
+print("Advent of Code, Day 6, Part 1")
 total = 1
 for x in range(len(winners)):
     total *= winners[x]
@@ -35,5 +35,5 @@ for x in range(race_time, 0, -1):
         last = x
         break
 
-print("Advent of Code, Day 5, Part 2")
+print("Advent of Code, Day 6, Part 2")
 print(last - first + 1)

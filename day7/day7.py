@@ -160,7 +160,7 @@ score = 0
 for i in range(len(hands)):
     score += (i + 1) * hands[i].bid
 
-print("Advent of Code, Day 6, Part 1")
+print("Advent of Code, Day 7, Part 1")
 print(score)
 
 ORDERING = "AKQT98765432J"
@@ -177,5 +177,5 @@ score = 0
 for i in range(len(hands)):
     score += (i + 1) * hands[i].bid
 
-print("Advent of Code, Day 6, Part 2")
+print("Advent of Code, Day 7, Part 2")
 print(score)

@@ -51,4 +51,4 @@ for box_num in range(len(boxes)):
         power += (box_num + 1) * (lens_num + 1) * boxes[box_num][lens_num][1]
 
 print("Advent of Code, Day 15, Part 2")
-
+print(power)

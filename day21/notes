@@ -1,0 +1,33 @@
+# after 11 iterations, first block alternates between 39 and 42 (39 at 26th)
+# after 26 iterations, top block alternates (39 at 26th)
+# after 24, right block
+
+# after 129, center is repeating
+# every 131 after 129, top, bottom, left, right are repeating
+# every 232 after 129, corners are repeating
+
+L/R
+
+26501365 - 129 = 26501236
+26501236 % 131 = 67
+26501236 // 131 = 202299
+
+0 +/- 202299 is full
+
+               1877
+
+          3840 7796 3832
+
+     3840 7796 7819 7796 3832
+
+1998 7796 7819 7796 7819 7796 1895
+
+     3860 7796 7819 7796 3862
+
+          3860 7796 3862
+
+               1906
+
+  * # # # *
+
+  * * # * *
